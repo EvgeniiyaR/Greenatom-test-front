@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  gap: 25px;
+  width: 400px;
+}
+
+.main__bubble {
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+}
+
+.main__bubble:before {
+  content: '';
+  position: absolute;
+  left: 260px;
+  bottom: -50px;
+  border: 25px solid;
+  border-color: black black transparent transparent;
+}
+
+.main__bubble:after {
+  content: '';
+  position: absolute;
+  left: 269px;
+  bottom: -32px;
+  border: 17px solid;
+  border-color: white white transparent transparent;
+}
+
+.main__author {
+  align-self: flex-end;
+  padding-right: 20px;
+}
