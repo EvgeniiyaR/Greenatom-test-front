@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/EvgeniiyaR/Greenatom-test-front/static/css/main.159dc254.css",
-    "main.js": "/EvgeniiyaR/Greenatom-test-front/static/js/main.1444a62f.js",
-    "static/js/787.e4ae0a49.chunk.js": "/EvgeniiyaR/Greenatom-test-front/static/js/787.e4ae0a49.chunk.js",
-    "index.html": "/EvgeniiyaR/Greenatom-test-front/index.html",
-    "main.159dc254.css.map": "/EvgeniiyaR/Greenatom-test-front/static/css/main.159dc254.css.map",
-    "main.1444a62f.js.map": "/EvgeniiyaR/Greenatom-test-front/static/js/main.1444a62f.js.map",
-    "787.e4ae0a49.chunk.js.map": "/EvgeniiyaR/Greenatom-test-front/static/js/787.e4ae0a49.chunk.js.map"
+    "main.css": "/Greenatom-test-front/static/css/main.159dc254.css",
+    "main.js": "/Greenatom-test-front/static/js/main.e938a5c0.js",
+    "static/js/787.e4ae0a49.chunk.js": "/Greenatom-test-front/static/js/787.e4ae0a49.chunk.js",
+    "index.html": "/Greenatom-test-front/index.html",
+    "main.159dc254.css.map": "/Greenatom-test-front/static/css/main.159dc254.css.map",
+    "main.e938a5c0.js.map": "/Greenatom-test-front/static/js/main.e938a5c0.js.map",
+    "787.e4ae0a49.chunk.js.map": "/Greenatom-test-front/static/js/787.e4ae0a49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.159dc254.css",
-    "static/js/main.1444a62f.js"
+    "static/js/main.e938a5c0.js"
   ]
 }
