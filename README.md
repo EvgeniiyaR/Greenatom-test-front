@@ -29,6 +29,8 @@ Random Quote Machine
 1. Склонируйте репозиторий локально:
 
 `git clone https://github.com/EvgeniiyaR/Greenatom-test-front -b random-quote-machine`
+
+
 2. Установите Node.js с официального сайта https://nodejs.org/
 3. Установите модули npm: `npm install`
 4. Запустите проект: `npm run start`
