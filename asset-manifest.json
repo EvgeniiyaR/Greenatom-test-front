@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Greenatom-test-front/static/css/main.159dc254.css",
-    "main.js": "/Greenatom-test-front/static/js/main.e938a5c0.js",
-    "static/js/787.e4ae0a49.chunk.js": "/Greenatom-test-front/static/js/787.e4ae0a49.chunk.js",
-    "index.html": "/Greenatom-test-front/index.html",
-    "main.159dc254.css.map": "/Greenatom-test-front/static/css/main.159dc254.css.map",
-    "main.e938a5c0.js.map": "/Greenatom-test-front/static/js/main.e938a5c0.js.map",
-    "787.e4ae0a49.chunk.js.map": "/Greenatom-test-front/static/js/787.e4ae0a49.chunk.js.map"
+    "main.css": "/Greenatom-test-front/random-quote-machine/static/css/main.ab2b68fa.css",
+    "main.js": "/Greenatom-test-front/random-quote-machine/static/js/main.abf2634d.js",
+    "static/js/787.e4ae0a49.chunk.js": "/Greenatom-test-front/random-quote-machine/static/js/787.e4ae0a49.chunk.js",
+    "index.html": "/Greenatom-test-front/random-quote-machine/index.html",
+    "main.ab2b68fa.css.map": "/Greenatom-test-front/random-quote-machine/static/css/main.ab2b68fa.css.map",
+    "main.abf2634d.js.map": "/Greenatom-test-front/random-quote-machine/static/js/main.abf2634d.js.map",
+    "787.e4ae0a49.chunk.js.map": "/Greenatom-test-front/random-quote-machine/static/js/787.e4ae0a49.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.159dc254.css",
-    "static/js/main.e938a5c0.js"
+    "static/css/main.ab2b68fa.css",
+    "static/js/main.abf2634d.js"
   ]
 }
