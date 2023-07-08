@@ -28,7 +28,7 @@ Random Quote Machine
 Инструкция по развертыванию:
 1. Склонируйте репозиторий локально:
 
-`git clone https://github.com/EvgeniiyaR/Greenatom-test-front -b random-quote-machine`
+`git clone https://evgeniiyar.github.io/Greenatom-test-front-1/`
 
 
 2. Установите Node.js с официального сайта https://nodejs.org/
@@ -37,4 +37,4 @@ Random Quote Machine
 
 ---
 
-Ссылка на деплой проекта: https://evgeniiyar.github.io/Greenatom-test-front/random-quote-machine
+Ссылка на деплой проекта: https://evgeniiyar.github.io/Greenatom-test-front-1/
