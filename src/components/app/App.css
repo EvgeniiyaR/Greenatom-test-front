@@ -7,24 +7,25 @@
   margin: 0 auto;
   height: 100vh;
   gap: 25px;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .main__bubble {
   box-sizing: border-box;
-  width: 300px;
+  width: 500px;
   text-align: center;
   background-color: white;
   border: 5px solid black;
   border-radius: 30px;
   padding: 20px;
   position: relative;
+  font-size: 2rem;
 }
 
 .main__bubble:before {
   content: '';
   position: absolute;
-  left: 220px;
+  left: 390px;
   bottom: -50px;
   border: 25px solid;
   border-color: black black transparent transparent;
@@ -33,7 +34,7 @@
 .main__bubble:after {
   content: '';
   position: absolute;
-  left: 229px;
+  left: 399px;
   bottom: -32px;
   border: 17px solid;
   border-color: white white transparent transparent;
@@ -41,5 +42,30 @@
 
 .main__author {
   align-self: flex-end;
-  padding-right: 20px;
+  padding-right: 50px;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    max-width: calc(400px + (600 - 400) * (100vw - 320px) / (600 - 320));
+  }
+
+  .main__bubble {
+    width: calc(300px + (500 - 300) * (100vw - 320px) / (600 - 320));
+    font-size: 1.2rem;
+  }
+
+  .main__bubble:before {
+    left: calc(220px + (390 - 220) * (100vw - 320px) / (600 - 320));
+  }
+
+  .main__bubble:after {
+    left: calc(229px + (399 - 229) * (100vw - 320px) / (600 - 320));
+  }
+
+  .main__author {
+    font-size: 1rem;
+  }
 }

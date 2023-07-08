@@ -9,6 +9,7 @@ function App() {
   const [quote, setQuote] = useState({ quote: '', author: '' });
   const [isLoading, setIsLoading] = useState(false);
   const root = document.querySelector('#root') as HTMLElement;
+  const button = document.querySelector('.main__button') as HTMLElement;
 
   const changeColor = useCallback(() => {
     root.style.backgroundColor = `${generateColor()}`;

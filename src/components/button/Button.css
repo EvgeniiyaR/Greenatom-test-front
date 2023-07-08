@@ -1,10 +1,13 @@
 .main__button {
   box-sizing: border-box;
   position: relative;
-  width: 300px;
+  width: 500px;
   background-color: transparent;
   border: 5px solid;
-  padding: 10px;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, .2);
+  transition: background-color .2s;
 }
 
 .main__button:before {
@@ -13,7 +16,7 @@
   top: 5px;
   left: 15px;
   background-color: transparent;
-  width: 300px;
+  width: 500px;
   height: 20px;
   border-top: 5px solid;
   border-left: 2px solid;
@@ -26,7 +29,7 @@
   bottom: -15px;
   right: -26px;
   background-color: transparent;
-  width: 300px;
+  width: 500px;
   height: 20px;
   border-bottom: 5px solid;
   border-right: 2px solid;
@@ -35,6 +38,7 @@
 
 .main__button:hover {
   cursor: pointer;
+  background-color: rgba(0, 0, 0, .1);
 }
 
 .main__button:hover:before {
@@ -47,4 +51,23 @@
   bottom: 0;
   right: 0;
   opacity: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .main__button {
+    width: calc(300px + (500 - 300) * (100vw - 320px) / (600 - 320));
+    font-size: 1.2rem;
+  }
+
+  .main__button:before,
+  .main__button:after {
+    width: calc(250px + (500 - 250) * (100vw - 320px) / (600 - 320));
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main__button:before,
+  .main__button:after {
+    display: none;
+  }
 }
