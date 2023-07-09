@@ -1,9 +1,9 @@
 import './Button.css';
 import { IButton } from '../../types/';
 
-function Button({ onClick, text }: IButton) {
+function Button({ onClick, text, type }: IButton) {
   return (
-    <button className='main__button' type='button' onClick={onClick}>{text}</button>
+    <button className='main__button' type={type} onClick={onClick}>{text}</button>
   )
 }
 

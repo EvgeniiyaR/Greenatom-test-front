@@ -53,7 +53,7 @@ function App() {
       :
         <LoaderPoints />
       }
-      <Button onClick={handleGetQuote} text='Новая цитата' />
+      <Button onClick={handleGetQuote} type='button' text='Новая цитата' />
     </div>
   );
 }
