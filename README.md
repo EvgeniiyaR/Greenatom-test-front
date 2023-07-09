@@ -15,7 +15,6 @@ Random Quote Machine
 
 `https://api.forismatic.com/api/1.0/?method=getQuote&key=random&format=json&lang=ru&json=?`
 
-
 При создании применены технологии:
 * HTML;
 * CSS;
@@ -24,6 +23,13 @@ Random Quote Machine
 * Методология БЭМ;
 * Webpack;
 * TypeScript.
+
+
+Так как используется CORS Anywhere, то для доступа к нему нужно перейти по [ссылке](https://cors-anywhere.herokuapp.com/) и запросить временный демо доступ на сервер по кнопке "Reques temporary accsess to the demo server".
+
+
+CORS Anywhere - это обратный прокси-сервер NodeJS, который добавляет заголовки CORS к проксируемому запросу.
+
 
 Инструкция по развертыванию:
 1. Склонируйте репозиторий локально:
