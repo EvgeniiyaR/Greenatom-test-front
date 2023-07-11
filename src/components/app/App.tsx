@@ -8,11 +8,11 @@ import Button from '../button/Button';
 function App() {
   const [quote, setQuote] = useState({ quote: '', author: '' });
   const [isLoading, setIsLoading] = useState(false);
-  const root = document.querySelector('#root') as HTMLElement;
+  const body = document.querySelector('body') as HTMLElement;
 
   const changeColor = useCallback(() => {
-    root.style.backgroundColor = `${generateColor()}`;
-    root.style.transition = 'background-color 1s';
+    body.style.backgroundColor = `${generateColor()}`;
+    body.style.transition = 'background-color 1s';
   }, []);
 
   useEffect(() => {
@@ -36,7 +36,7 @@ function App() {
       .catch((err) => {
         console.log(`Возникла ошибка: ${err}`);
       });
-      setIsLoading(false);
+    setIsLoading(false);
   }
 
   return (
