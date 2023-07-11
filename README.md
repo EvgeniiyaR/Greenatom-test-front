@@ -34,7 +34,7 @@ CORS Anywhere - это обратный прокси-сервер NodeJS, кот
 Инструкция по развертыванию:
 1. Склонируйте репозиторий локально:
 
-`git clone https://evgeniiyar.github.io/Greenatom-test-front-1/`
+`git clone https://github.com/EvgeniiyaR/Greenatom-test-front-1.git`
 
 
 2. Установите Node.js с официального сайта https://nodejs.org/
